@@ -8,6 +8,7 @@
     };
 
     const validationRules = {
+        debugger;
         // Mapping of IDs to their validation rules
         "3f746946-34b4-442c-a677-e232cdd2bc40": { // First Name
             regex: validations.htmlAndSpecialChars,
@@ -70,5 +71,6 @@
     };
 
     // Initialize validations on DOMContentLoaded
+    debugger;
     document.addEventListener("DOMContentLoaded", attachValidations);
 })();
